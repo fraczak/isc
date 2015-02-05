@@ -4,6 +4,7 @@
   "description": "Isomorphic SmartClient - LGPL",
   "main": "index.js",
   "scripts": {
+    "install": "coffee -c index.coffee",
     "test": "browserify -t coffeeify a.coffee > a.js"
   },
   "keywords": [
@@ -13,8 +14,9 @@
   "author": "Isomorphic Software",
   "license": "LGPL",
   "devDependencies": {
-    "coffee": "~1.0.0",
     "browserify": "~8.1.2",
+    "coffee": "~1.0.0",
+    "coffee-script": "^1.9.0",
     "coffeeify": "~1.0.0"
   }
 }
