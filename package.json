@@ -1,0 +1,20 @@
+{
+  "name": "isc",
+  "version": "0.0.0",
+  "description": "Isomorphic SmartClient - LGPL",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserify -t coffeeify a.coffee > a.js"
+  },
+  "keywords": [
+    "isc",
+    "smartclient"
+  ],
+  "author": "Isomorphic Software",
+  "license": "LGPL",
+  "devDependencies": {
+    "coffee": "~1.0.0",
+    "browserify": "~8.1.2",
+    "coffeeify": "~1.0.0"
+  }
+}
